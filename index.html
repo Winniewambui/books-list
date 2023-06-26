@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Book-List</title>
+</head>
+<body>
+<main>
+<div class="master-container">
+
+ <header>
+        <input type="text" id="search-bar" placeholder="Search...">
+
+    <form>
+        <div class="hide-books-container">
+        <input type="checkbox" id="hide"/>
+        <label for="hide">Hide all books</label>
+    </div>
+    <div class="add-books-container">
+        <input type="text" id="add-book-input" placeholder="Add a book..."/>
+        <button >Add</button>
+    </div>
+    </form>
+</header>
+
+<div class="wrapper">
+    <div class="book-list">
+        <!-- <h1>Books</h1> -->
+        <ul class="list">
+            <li>
+            <span class="name">5 AM</span>
+            <button class="delete">delete</button>
+            </li>
+            <li>
+            <span class="name">Timeless</span>
+            <button class="delete">delete</button>
+            </li>
+            <li> 
+            <span class="name">Mamba Mentality</span>
+            <button class="delete">delete</button>
+            </li>
+            <li>
+            <span class="name">Deep Work</span>
+            <button class="delete">delete</button>
+            </li>
+            <li>
+            <span class="name">Money Woman</span>
+            <button class="delete">delete</button>
+            </li>
+        </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+</main>
+    <script src="./index.js"></script>
+</body>
+</html>

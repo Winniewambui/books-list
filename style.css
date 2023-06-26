@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    border: 2px solid rgb(126, 58, 236);
+    width: 500px;
+    height: 500px;
+    margin: 120px auto;
+}
+.master-container{
+    margin: 20px ;
+   
+}
+#search-bar{
+    text-align: center;
+    color: black;
+    padding: 5px 10px;
+}
+form{
+    display: flex;
+ align-items: center;
+ justify-content: space-around;
+ margin-top: 20px;
+}
+.wrapper{
+    margin: 20px auto;
+}
+#add-book-input{
+    padding: 5px 10px;
+    text-align: center;
+}
+.list{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 10px;
+}
+h1{
+    text-decoration: underline;
+font-size: 22px;
+}
